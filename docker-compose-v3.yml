@@ -37,5 +37,5 @@ services:
      - BROWSER=chrome
      - MODULE=testng.xml
     volumes:
-      - ./output/search-result:/Users/tsrin/workspace/AutoSuggestionV2/test-output
+      - ./OutputValue:/Users/tsrin/workspace/AutoSuggestionV2/test-output
     
