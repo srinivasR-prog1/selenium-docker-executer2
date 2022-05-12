@@ -28,7 +28,7 @@ pipeline{
          post{
                
               always{
-               		archiveArtifacts artifacts: 'OutputValue'
+               		archiveArtifacts artifacts: 'OutputValue/*'
                    
                     bat "docker-compose -f docker-compose-v3.yml down"                   
                    
